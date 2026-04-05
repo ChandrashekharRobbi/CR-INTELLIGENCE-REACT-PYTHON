@@ -18,7 +18,7 @@ export default function ResumePage() {
             <p style={{ color: 'var(--accent-light)', fontWeight: 600 }}>Analyst — Python Developer</p>
             <p>Thane, Maharashtra, India &bull; Notice Period: 30 Days</p>
           </div>
-          <a href="/pdf/resume.pdf" download className="send-btn" style={{ textDecoration: 'none', padding: '12px 24px', borderRadius: 12, display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 600 }}>
+          <a href="/pdf/Chandrashekhar_Robbi_Python_Dev.pdf" download="Chandrashekhar_Robbi_Python_Dev.pdf" className="send-btn" style={{ textDecoration: 'none', padding: '12px 46px', borderRadius: 12, display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 600, whiteSpace: 'nowrap' }}>
             <FiDownload /> Download PDF
           </a>
         </div>
@@ -47,7 +47,7 @@ export default function ResumePage() {
         <div className="card">
           <h3>Key Highlights</h3>
           <ul style={{ paddingLeft: 20, marginTop: 8 }}>
-            <li>50–90% automation speed improvement</li>
+            <li>80–90% automation speed improvement</li>
             <li>80–90% reduction in manual data handling</li>
             <li>Super Achiever Award 2025</li>
             <li>CGPI 9.63 (10.00 in Semester 7)</li>
