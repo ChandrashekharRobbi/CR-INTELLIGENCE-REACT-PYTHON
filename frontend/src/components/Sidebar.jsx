@@ -11,7 +11,7 @@ const navItems = [
   { path: '/achievements', label: 'Awards', icon: <FiAward /> },
   { path: '/resume', label: 'Resume', icon: <FiFileText /> },
   { path: '/contact', label: 'Contact', icon: <FiMail /> },
-  { path: '/architecture', label: 'Arch', icon: <FiCpu /> },
+  { path: '/arch', label: 'Arch', icon: <FiCpu /> },
 ];
 
 export default function Topbar() {
