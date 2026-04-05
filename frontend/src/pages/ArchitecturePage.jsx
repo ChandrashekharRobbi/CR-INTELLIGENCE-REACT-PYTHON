@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import IsometricArchitecture from '../components/IsometricArchitecture';
+import PageIndexTree from '../components/PageIndexTree';
 
 const p = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0, transition: { duration: 0.4 } }, exit: { opacity: 0 } };
 
@@ -31,36 +32,7 @@ export default function ArchitecturePage() {
       <div className="divider" />
 
       <h3 style={{ marginBottom: 16 }}>🌳 PageIndex Document Tree</h3>
-      <div className="card">
-        <pre style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 13, lineHeight: 1.8, color: 'var(--accent-light)', overflow: 'auto' }}>
-{`📄 Portfolio (Root)
-├── 📁 About Me
-│   ├── 📑 Professional Summary
-│   ├── 📑 Career Objectives
-│   └── 📑 Technical Expertise
-├── 📁 Experience
-│   ├── 📑 eClerx — Analyst
-│   ├── 📑 Qodeit — Intern
-│   └── 📑 Teaching Experience
-├── 📁 Skills
-│   ├── 📑 Programming Languages
-│   ├── 📑 Backend Development
-│   ├── 📑 AI & Machine Learning
-│   └── 📑 Automation Engineering
-├── 📁 Education
-│   └── 📑 B.E. Computer Science (AIML)
-├── 📁 Projects
-│   ├── 📑 Paddy Doctor / LipNet / GenMed
-│   ├── 📑 AI Resume Portfolio
-│   └── 📑 Automation Tools
-├── 📁 Achievements
-│   ├── 📑 Awards & Recognition
-│   └── 📑 Certifications
-├── 📁 Contact
-├── 📁 Why Hire
-└── 📁 Resume`}
-        </pre>
-      </div>
+      <PageIndexTree />
 
       <div className="divider" />
 
